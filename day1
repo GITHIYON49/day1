@@ -1,0 +1,28 @@
+1.Write a blog on Difference between HTTP1.1 vs HTTP2
+ 
+HTTP1 
+
+1 It uses works on the tectual format
+
+2 There is head of line blocking that blocks all the request behind it until it doesn't get its all resource
+
+3 It uses requests resource inlining for use getting multiple page
+
+4 It compresses data by itself
+
+HTTP2
+
+1 It works on the binary protocol
+
+2 It allows multiplexing so one tcp connection is required for multiple request
+
+3 It uses push format by server that collects all multiples pages
+
+4 It uses Hpacks data compression
+
+
+2.Write a blog about objects and its internal representation in Javascript
+
+OBJECT in javascript may be defined as an unordered collection of related data of primitive or reference types ,in the 
+form of "key : value" paris . these keys can be variables or function and are called properties and methods,repectively
+in the context of an object.
